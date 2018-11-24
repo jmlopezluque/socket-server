@@ -29,4 +29,6 @@ git init (inicializamos git)
 git status
 git add . (añadimos todos los archivos para realizar un commit, podemos verlo otra vez con git status)
 git commit -m "descripción que queramos poner"
+git remote add origin https://migithub/mirepositorio
+git push -u origin master 
 ```  
