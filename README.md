@@ -20,3 +20,13 @@ Lenvatamos el servidor cualquiera de esto dos comandos
 nodemon dist/
 node dist/
 ```  
+
+Creamos un fichero .gitignore para poner las capertas o archivos que no queremos subir al repositorio GIT
+
+Comandos de git
+``` 
+git init (inicializamos git)
+git status
+git add . (añadimos todos los archivos para realizar un commit, podemos verlo otra vez con git status)
+git commit -m "descripción que queramos poner"
+```  
