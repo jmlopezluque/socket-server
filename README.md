@@ -31,4 +31,6 @@ git add . (añadimos todos los archivos para realizar un commit, podemos verlo o
 git commit -m "descripción que queramos poner"
 git remote add origin https://migithub/mirepositorio
 git push -u origin master 
+git tag -a v1.0.0 -m "Descripción de la version" (Esto es para añadir una tag de la versión)
+git push --tags (esto es para que suba a github)
 ```  
